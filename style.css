@@ -563,8 +563,8 @@ section{
   }
 
   #about{
-      margin-top:-50px !important;
-      padding-top:10px !important;
+      margin-top:0 !important;
+      padding-top:40px !important;
   }
 
 #about p{
