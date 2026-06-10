@@ -527,11 +527,30 @@ section{
 @media (max-width: 768px) {
     .hero{
         min-height:auto;
-        padding:80px 8% 30px 8%;
-        gap:30px;
+        flex-direction:column;
+        text-align:center;
+        padding:80px 8% 0px 8%;
+        gap:10px;
+    }
+
+    .hero-image img{
+        width:220px;
+        height:220px;
     }
 
     .hero-content p{
         margin-bottom:10px;
+    }
+}
+@media (max-width: 768px) {
+    .hero {
+        display: block !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    #about {
+        margin-top: 0 !important;
+        padding-top: 20px !important;
     }
 }
