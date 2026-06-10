@@ -554,3 +554,17 @@ section{
         padding-top: 20px !important;
     }
 }
+@media (max-width:768px){
+
+  .hero{
+      min-height:auto !important;
+      padding:80px 8% 0 8% !important;
+      margin:0 !important;
+  }
+
+  #about{
+      margin-top:-150px !important;
+      padding-top:0 !important;
+  }
+
+}
