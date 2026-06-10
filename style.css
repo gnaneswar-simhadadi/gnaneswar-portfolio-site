@@ -567,4 +567,14 @@ section{
       padding-top:10px !important;
   }
 
+#about p{
+    max-width:100% !important;
+    padding:20px !important;
+    font-size:16px !important;
+    line-height:1.8 !important;
+}
+
+.hero-content h3{
+    font-size:22px !important;
+}
 }
