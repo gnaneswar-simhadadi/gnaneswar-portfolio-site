@@ -524,3 +524,14 @@ section{
         margin-top: -80px;
     }
 }
+@media (max-width: 768px) {
+    .hero{
+        min-height:auto;
+        padding:80px 8% 30px 8%;
+        gap:30px;
+    }
+
+    .hero-content p{
+        margin-bottom:10px;
+    }
+}
