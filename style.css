@@ -514,3 +514,13 @@ section{
      font-weight:600;
      text-shadow:none  !important
 }
+@media (max-width: 768px) {
+    .hero {
+        min-height:auto;
+        padding-bottom: 20px;
+    }
+
+    .about {
+        margin-top: -80px;
+    }
+}
